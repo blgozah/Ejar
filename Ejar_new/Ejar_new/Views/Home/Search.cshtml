@@ -1,0 +1,90 @@
+﻿@model IEnumerable<Ejar_new.Models.Apartment>
+
+@{
+    ViewBag.Title = "Search";
+}
+
+
+<html style="font-size: 16px;" lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <title>Contact</title>
+
+    <link href="~/Content/apartment/nicepage.css" rel="stylesheet" />
+    <link href="~/Content/apartment/Contact.css" rel="stylesheet" />
+    <script class="u-script" type="text/javascript" src="~/Scripts/apartment/jquery.js" defer=""></script>
+    <script class="u-script" type="text/javascript" src="~/Scripts/apartment/nicepage.js" defer=""></script>
+
+
+
+
+
+</head>
+<body class="u-body u-xl-mode" data-lang="en">
+    <br /><br /><br /><br />
+    <section class="u-align-center u-clearfix u-grey-10 u-section-1" id="sec-af4f">
+        <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
+            <!--products--><!--products_options_json-->
+            <!--{"type":"Recent","source":"","tags":"","count":""}-->
+            <!--/products_options_json-->
+
+            <div class="u-expanded-width u-products u-products-1">
+                <div class="u-repeater u-repeater-1">
+                    <!--product_item-->
+
+
+                    @foreach (var item in Model)
+                    {
+
+
+                        <div class="u-align-left u-container-style u-products-item u-repeater-item u-white u-repeater-item-1">
+
+                            <a href="@Url.Action("Details", "Apartments", new { id = item.apartment_id })">
+                                <div class="u-container-layout u-similar-container u-container-layout-1">
+                                    <!--product_image-->
+                                    <img alt="" class="u-expanded-width u-image u-image-default u-product-control u-image-1" src="images/2.svg">
+                                    <!--/product_image-->
+                                    <!--product_title-->
+                                    <h4 class="u-product-control u-text u-text-1">
+                                        <a class="u-product-title-link" href="#"><!--product_title_content--><!--/product_title_content-->Apartment @Html.DisplayFor(modelItem => item.apartment_id) </a>
+                                    </h4><!--/product_title--><!--product_content-->
+                                    <div class="u-product-control u-product-desc u-text u-text-2"><!--product_content_content-->Sample small text. Lorem ipsum dolor sit amet.<!--/product_content_content--></div><!--/product_content--><!--product_price-->
+                                    <div class="u-product-control u-product-price u-product-price-1">
+                                        <div class="u-price-wrapper u-spacing-10">
+                                            <!--product_old_price-->
+
+                                            <div class="u-price u-text-palette-1-base" style="font-size: 1.5rem; font-weight: 700;"><!--product_regular_price_content-->@Html.DisplayFor(modelItem => item.price) YER<!--/product_regular_price_content--></div><!--/product_regular_price-->
+                                        </div>
+                                    </div><!--/product_price--><!--product_button--><!--options_json--><!--{"clickType":"add-to-cart","content":""}--><!--/options_json-->
+                                    <a href="@Url.Action("Create", "reservations", new { id = item.apartment_id })" class="u-btn u-btn-rectangle u-button-style u-palette-2-base u-product-control u-btn-1"><!--product_button_content-->Rent it<!--/product_button_content--></a><!--/product_button-->
+                                </div>
+                            </a>
+
+                        </div><!--/product_item--><!--product_item-->
+
+
+                    }
+
+
+
+
+
+                </div>
+
+
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+
+
+</body>
+</html>

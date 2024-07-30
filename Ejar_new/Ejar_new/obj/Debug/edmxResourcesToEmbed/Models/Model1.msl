@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="EjarModelStoreContainer" CdmEntityContainer="EjarEntities">
+    <EntitySetMapping Name="Apartments">
+      <EntityTypeMapping TypeName="EjarModel.Apartment">
+        <MappingFragment StoreEntitySet="Apartment">
+          <ScalarProperty Name="apartment_id" ColumnName="apartment_id" />
+          <ScalarProperty Name="height" ColumnName="height" />
+          <ScalarProperty Name="width" ColumnName="width" />
+          <ScalarProperty Name="bathroom" ColumnName="bathroom" />
+          <ScalarProperty Name="room" ColumnName="room" />
+          <ScalarProperty Name="address" ColumnName="address" />
+          <ScalarProperty Name="price" ColumnName="price" />
+          <ScalarProperty Name="pictures" ColumnName="pictures" />
+          <ScalarProperty Name="area_id" ColumnName="area_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Areas">
+      <EntityTypeMapping TypeName="EjarModel.Area">
+        <MappingFragment StoreEntitySet="Area">
+          <ScalarProperty Name="id_area" ColumnName="id_area" />
+          <ScalarProperty Name="area_name" ColumnName="area_name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="reservations">
+      <EntityTypeMapping TypeName="EjarModel.reservation">
+        <MappingFragment StoreEntitySet="reservation">
+          <ScalarProperty Name="period" ColumnName="period" />
+          <ScalarProperty Name="apartment_id" ColumnName="apartment_id" />
+          <ScalarProperty Name="reservation_id" ColumnName="reservation_id" />
+          <ScalarProperty Name="period_start" ColumnName="period_start" />
+          <ScalarProperty Name="period_end" ColumnName="period_end" />
+          <ScalarProperty Name="user_id" ColumnName="user_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Users">
+      <EntityTypeMapping TypeName="EjarModel.User">
+        <MappingFragment StoreEntitySet="User">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="user_name" ColumnName="user_name" />
+          <ScalarProperty Name="phone" ColumnName="phone" />
+          <ScalarProperty Name="e_mail" ColumnName="e-mail" />
+          <ScalarProperty Name="password" ColumnName="password" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Roles">
+      <EntityTypeMapping TypeName="EjarModel.Role">
+        <MappingFragment StoreEntitySet="Roles">
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sysdiagrams">
+      <EntityTypeMapping TypeName="EjarModel.sysdiagram">
+        <MappingFragment StoreEntitySet="sysdiagrams">
+          <ScalarProperty Name="definition" ColumnName="definition" />
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+          <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

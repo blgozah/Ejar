@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="EjarModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Apartment">
+    <Key>
+      <PropertyRef Name="apartment_id" />
+    </Key>
+    <Property Name="apartment_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="height" Type="Double" Nullable="false" />
+    <Property Name="width" Type="Double" Nullable="false" />
+    <Property Name="bathroom" Type="Byte" Nullable="false" />
+    <Property Name="room" Type="Byte" Nullable="false" />
+    <Property Name="address" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="price" Type="Decimal" Precision="19" Scale="4" Nullable="false" />
+    <Property Name="pictures" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+    <Property Name="area_id" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Area" Relationship="Self.FK_Apartment_Area" FromRole="Apartment" ToRole="Area" />
+    <NavigationProperty Name="reservations" Relationship="EjarModel.FK_reservation_Apartment" FromRole="Apartment" ToRole="reservation" />
+  </EntityType>
+  <EntityType Name="Area">
+    <Key>
+      <PropertyRef Name="id_area" />
+    </Key>
+    <Property Name="id_area" Type="Int32" Nullable="false" />
+    <Property Name="area_name" Type="String" MaxLength="20" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Apartments" Relationship="Self.FK_Apartment_Area" FromRole="Area" ToRole="Apartment" />
+  </EntityType>
+  <EntityType Name="reservation">
+    <Key>
+      <PropertyRef Name="reservation_id" />
+    </Key>
+    <Property Name="reservation_id" Type="Int32" Nullable="false" />
+    <Property Name="period_start" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="period_end" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="user_id" Type="Int32" Nullable="false" />
+    <Property Name="apartment_id" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Apartment" Relationship="EjarModel.FK_reservation_Apartment" FromRole="reservation" ToRole="Apartment" />
+    <Property Name="period" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="User">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="user_name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="phone" Type="String" MaxLength="20" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="e_mail" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="password" Type="String" MaxLength="20" FixedLength="false" Unicode="true" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_Apartment_Area">
+    <End Role="Area" Type="Self.Area" Multiplicity="1" />
+    <End Role="Apartment" Type="Self.Apartment" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Area">
+        <PropertyRef Name="id_area" />
+      </Principal>
+      <Dependent Role="Apartment">
+        <PropertyRef Name="area_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="EjarEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Apartments" EntityType="Self.Apartment" />
+    <EntitySet Name="Areas" EntityType="Self.Area" />
+    <EntitySet Name="reservations" EntityType="Self.reservation" />
+    <EntitySet Name="Users" EntityType="Self.User" />
+    <AssociationSet Name="FK_Apartment_Area" Association="Self.FK_Apartment_Area">
+      <End Role="Area" EntitySet="Areas" />
+      <End Role="Apartment" EntitySet="Apartments" />
+    </AssociationSet>
+    <AssociationSet Name="FK_reservation_Apartment" Association="EjarModel.FK_reservation_Apartment">
+      <End Role="Apartment" EntitySet="Apartments" />
+      <End Role="reservation" EntitySet="reservations" />
+    </AssociationSet>
+    <EntitySet Name="Roles" EntityType="EjarModel.Role" />
+    <EntitySet Name="sysdiagrams" EntityType="EjarModel.sysdiagram" />
+  </EntityContainer>
+  <Association Name="FK_reservation_Apartment">
+    <End Type="EjarModel.Apartment" Role="Apartment" Multiplicity="1" />
+    <End Type="EjarModel.reservation" Role="reservation" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Apartment">
+        <PropertyRef Name="apartment_id" />
+      </Principal>
+      <Dependent Role="reservation">
+        <PropertyRef Name="apartment_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="Role">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="30" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="sysdiagram">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+</Schema>

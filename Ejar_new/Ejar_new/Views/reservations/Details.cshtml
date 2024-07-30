@@ -1,0 +1,51 @@
+﻿@model Ejar_new.Models.reservation
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_LayoutPage1.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>reservation</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.period_start)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.period_start)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.period_end)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.period_end)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.user_id)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.user_id)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Apartment.address)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Apartment.address)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.reservation_id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

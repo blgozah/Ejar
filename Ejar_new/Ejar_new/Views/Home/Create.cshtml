@@ -1,0 +1,87 @@
+﻿
+    @model Ejar_new.Models.reservation
+
+@{
+    ViewBag.Title = "Create";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <title>Rent</title>
+
+ 
+
+    <!-- Bootstrap -->
+    <link type="text/css" rel="stylesheet" href="~/Content/Rent/css/bootstrap.min.css" />
+
+    <!-- Custom stlylesheet -->
+    <link type="text/css" rel="stylesheet" href="~/Content/Rent/css/style.css" />
+
+
+
+</head>
+
+<body>
+   @using (Html.BeginForm())
+   {
+    @Html.AntiForgeryToken()
+    <div id="booking" class="section">
+        <div class="section-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-7 col-md-push-5">
+                        <div class="booking-cta">
+                            <h1>Make your reservation</h1>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi facere, soluta magnam consectetur molestias itaque
+                                ad sint fugit architecto incidunt iste culpa perspiciatis possimus voluptates aliquid consequuntur cumque quasi.
+                                Perspiciatis.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-md-pull-7">
+                        <div class="booking-form">
+                            <form>
+                                <div class="form-group">
+                                    <span class="form-label">User name</span>
+
+                                    @Html.TextBox("Text1", null, new { htmlAttributes = new { @class = "form-control" } })
+
+
+                                </div>
+                                <div class="form-group">
+                                    <span class="form-label">Password</span>
+                                    @*<input id="Password1" type="password" />*@
+                                    @Html.Password("Password1",null, new { htmlAttributes = new { @class = "form-control" } })
+
+
+                                </div>
+                                <div class="form-group">
+                                    <span class="form-label">Peroid</span>
+                                    @Html.TextBoxFor(m=>m.period)
+                                    @Html.ValidationMessageFor(m=>m.period)
+                                </div>
+
+                                <div class="form-btn">
+                                    <input type="submit" value="Rent it" class=" "submit-btn"" />
+                                   
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+   }
+</body>
+
+
+</html>

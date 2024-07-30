@@ -1,0 +1,65 @@
+﻿@model Ejar_new.Models.reservation
+
+@{
+    ViewBag.Title = "Delete";
+    Layout = "~/Views/Shared/_LayoutPage1.cshtml";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>reservation</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.period_start)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.period_start)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.period_end)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.period_end)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.user_id)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.user_id)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.period)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.period)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Apartment.address)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Apartment.address)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>

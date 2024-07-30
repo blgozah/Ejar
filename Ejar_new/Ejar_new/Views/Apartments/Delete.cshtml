@@ -1,0 +1,89 @@
+﻿@model Ejar_new.Models.Apartment
+
+@{
+    ViewBag.Title = "Delete";
+    Layout = "~/Views/Shared/_LayoutPage1.cshtml";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>Apartment</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.height)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.height)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.width)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.width)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.bathroom)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.bathroom)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.room)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.room)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.address)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.address)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.price)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.price)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.pictures)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.pictures)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Area.area_name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Area.area_name)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>

@@ -1,0 +1,83 @@
+﻿@model Ejar_new.Models.Apartment
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_LayoutPage1.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Apartment</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.height)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.height)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.width)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.width)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.bathroom)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.bathroom)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.room)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.room)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.address)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.address)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.price)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.price)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.pictures)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.pictures)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Area.area_name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Area.area_name)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.apartment_id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

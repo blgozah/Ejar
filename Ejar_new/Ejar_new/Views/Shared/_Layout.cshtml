@@ -1,0 +1,75 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - EJAR Wep application</title>
+    @Styles.Render("~/Content/Home/style.css")
+    @Scripts.Render("~/bundles/modernizr")
+
+</head>
+<body>
+    <section id="header">
+        <div class="header container">
+            <div class="nav-bar">
+                <div class="brand">
+                    <a href="#hero">
+                        <h1><span>E</span>JAR</h1>
+                    </a>
+                </div>
+                <div class="nav-list">
+                    <div class="hamburger">
+                        <div class="bar"></div>
+                    </div>
+                    <ul>
+                        <li>
+                            @using (Html.BeginForm("search", "Home", FormMethod.Post))
+                            {
+                            <input type="text" name="search" id="search" />}
+                        </li>
+                        <li>@Html.ActionLink("Home", "Index", "Home")</li>
+                        <li>@Html.ActionLink("Apartment", "apartment", "Home")</li>
+                        <li>@Html.ActionLink("About", "About", "Home")</li>
+                        <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+                            
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+   
+                   
+    <div>
+        @RenderBody()
+        <hr />
+    </div>
+        <section id="footer">
+            <div class="footer container">
+                <div class="brand">
+                    <h1><span>E</span>jar <span>W</span>ebsite</h1>
+                </div>
+                <h2>Your Complete Web Solution</h2>
+                <div class="social-icon">
+                    <div class="social-item">
+                        <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/facebook-new.png" /></a>
+                    </div>
+                    <div class="social-item">
+                        <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/instagram-new.png" /></a>
+                    </div>
+                    <div class="social-item">
+                        <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/twitter.png" /></a>
+                    </div>
+                    <div class="social-item">
+                        <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/behance.png" /></a>
+                    </div>
+                </div>
+                <p>Copyright © 2020 Ejar. All rights reserved</p>
+            </div>
+        </section>
+    
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>

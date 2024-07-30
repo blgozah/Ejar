@@ -1,0 +1,137 @@
+D:\it3 term2\software design & development\Ejar_new\Ejar_new\bin\roslyn\csc.exe
+D:\it3 term2\software design & development\Ejar_new\Ejar_new\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\it3 term2\software design & development\Ejar_new\Ejar_new\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\it3 term2\software design & development\Ejar_new\Ejar_new\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\it3 term2\software design & development\Ejar_new\Ejar_new\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\it3 term2\software design & development\Ejar_new\Ejar_new\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\it3 term2\software design & development\Ejar_new\Ejar_new\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\it3 term2\software design & development\Ejar_new\Ejar_new\bin\roslyn\System.Collections.Immutable.dll
+D:\it3 term2\software design & development\Ejar_new\Ejar_new\bin\roslyn\System.Reflection.Metadata.dll
+D:\it3 term2\software design & development\Ejar_new\Ejar_new\bin\roslyn\vbc.exe
+D:\it3 term2\software design & development\Ejar_new\Ejar_new\bin\roslyn\VBCSCompiler.exe
+D:\it3 term2\software design & development\Ejar_new\Ejar_new\bin\roslyn\VBCSCompiler.exe.config
+D:\it3 term2\software design & development\Ejar_new\Ejar_new\bin\Ejar_new.dll.config
+D:\it3 term2\software design & development\Ejar_new\Ejar_new\bin\Ejar_new.dll
+D:\it3 term2\software design & development\Ejar_new\Ejar_new\bin\Ejar_new.pdb
+D:\it3 term2\software design & development\Ejar_new\Ejar_new\bin\Antlr3.Runtime.dll
+D:\it3 term2\software design & development\Ejar_new\Ejar_new\bin\EntityFramework.dll
+D:\it3 term2\software design & development\Ejar_new\Ejar_new\bin\EntityFramework.SqlServer.dll
+D:\it3 term2\software design & development\Ejar_new\Ejar_new\bin\Microsoft.AspNet.Identity.Core.dll
+D:\it3 term2\software design & development\Ejar_new\Ejar_new\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\it3 term2\software design & development\Ejar_new\Ejar_new\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\it3 term2\software design & development\Ejar_new\Ejar_new\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\it3 term2\software design & development\Ejar_new\Ejar_new\bin\Microsoft.Owin.dll
+D:\it3 term2\software design & development\Ejar_new\Ejar_new\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\it3 term2\software design & development\Ejar_new\Ejar_new\bin\Microsoft.Owin.Security.Cookies.dll
+D:\it3 term2\software design & development\Ejar_new\Ejar_new\bin\Microsoft.Owin.Security.dll
+D:\it3 term2\software design & development\Ejar_new\Ejar_new\bin\Microsoft.Owin.Security.Facebook.dll
+D:\it3 term2\software design & development\Ejar_new\Ejar_new\bin\Microsoft.Owin.Security.Google.dll
+D:\it3 term2\software design & development\Ejar_new\Ejar_new\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\it3 term2\software design & development\Ejar_new\Ejar_new\bin\Microsoft.Owin.Security.OAuth.dll
+D:\it3 term2\software design & development\Ejar_new\Ejar_new\bin\Microsoft.Owin.Security.Twitter.dll
+D:\it3 term2\software design & development\Ejar_new\Ejar_new\bin\Microsoft.Web.Infrastructure.dll
+D:\it3 term2\software design & development\Ejar_new\Ejar_new\bin\Newtonsoft.Json.dll
+D:\it3 term2\software design & development\Ejar_new\Ejar_new\bin\Owin.dll
+D:\it3 term2\software design & development\Ejar_new\Ejar_new\bin\System.Web.Helpers.dll
+D:\it3 term2\software design & development\Ejar_new\Ejar_new\bin\System.Web.Mvc.dll
+D:\it3 term2\software design & development\Ejar_new\Ejar_new\bin\System.Web.Optimization.dll
+D:\it3 term2\software design & development\Ejar_new\Ejar_new\bin\System.Web.Razor.dll
+D:\it3 term2\software design & development\Ejar_new\Ejar_new\bin\System.Web.WebPages.Deployment.dll
+D:\it3 term2\software design & development\Ejar_new\Ejar_new\bin\System.Web.WebPages.dll
+D:\it3 term2\software design & development\Ejar_new\Ejar_new\bin\System.Web.WebPages.Razor.dll
+D:\it3 term2\software design & development\Ejar_new\Ejar_new\bin\WebGrease.dll
+D:\it3 term2\software design & development\Ejar_new\Ejar_new\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\it3 term2\software design & development\Ejar_new\Ejar_new\bin\System.Web.Helpers.xml
+D:\it3 term2\software design & development\Ejar_new\Ejar_new\bin\System.Web.Mvc.xml
+D:\it3 term2\software design & development\Ejar_new\Ejar_new\bin\System.Web.Optimization.xml
+D:\it3 term2\software design & development\Ejar_new\Ejar_new\bin\System.Web.Razor.xml
+D:\it3 term2\software design & development\Ejar_new\Ejar_new\bin\System.Web.WebPages.xml
+D:\it3 term2\software design & development\Ejar_new\Ejar_new\bin\System.Web.WebPages.Deployment.xml
+D:\it3 term2\software design & development\Ejar_new\Ejar_new\bin\System.Web.WebPages.Razor.xml
+D:\it3 term2\software design & development\Ejar_new\Ejar_new\bin\Antlr3.Runtime.pdb
+D:\it3 term2\software design & development\Ejar_new\Ejar_new\bin\Newtonsoft.Json.xml
+D:\it3 term2\software design & development\Ejar_new\Ejar_new\bin\EntityFramework.xml
+D:\it3 term2\software design & development\Ejar_new\Ejar_new\bin\EntityFramework.SqlServer.xml
+D:\it3 term2\software design & development\Ejar_new\Ejar_new\bin\Microsoft.AspNet.Identity.Core.xml
+D:\it3 term2\software design & development\Ejar_new\Ejar_new\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\it3 term2\software design & development\Ejar_new\Ejar_new\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\it3 term2\software design & development\Ejar_new\Ejar_new\bin\Microsoft.Owin.xml
+D:\it3 term2\software design & development\Ejar_new\Ejar_new\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\it3 term2\software design & development\Ejar_new\Ejar_new\bin\Microsoft.Owin.Security.xml
+D:\it3 term2\software design & development\Ejar_new\Ejar_new\bin\Microsoft.Owin.Security.Facebook.xml
+D:\it3 term2\software design & development\Ejar_new\Ejar_new\bin\Microsoft.Owin.Security.Cookies.xml
+D:\it3 term2\software design & development\Ejar_new\Ejar_new\bin\Microsoft.Owin.Security.OAuth.xml
+D:\it3 term2\software design & development\Ejar_new\Ejar_new\bin\Microsoft.Owin.Security.Google.xml
+D:\it3 term2\software design & development\Ejar_new\Ejar_new\bin\Microsoft.Owin.Security.Twitter.xml
+D:\it3 term2\software design & development\Ejar_new\Ejar_new\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\it3 term2\software design & development\Ejar_new\Ejar_new\obj\Debug\Ejar_new.dll
+D:\it3 term2\software design & development\Ejar_new\Ejar_new\obj\Debug\Ejar_new.pdb
+D:\IT\IT level 4\Ejar\Ejar\Ejar_new\Ejar_new\bin\roslyn\csc.exe
+D:\IT\IT level 4\Ejar\Ejar\Ejar_new\Ejar_new\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\IT\IT level 4\Ejar\Ejar\Ejar_new\Ejar_new\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\IT\IT level 4\Ejar\Ejar\Ejar_new\Ejar_new\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\IT\IT level 4\Ejar\Ejar\Ejar_new\Ejar_new\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\IT\IT level 4\Ejar\Ejar\Ejar_new\Ejar_new\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\IT\IT level 4\Ejar\Ejar\Ejar_new\Ejar_new\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\IT\IT level 4\Ejar\Ejar\Ejar_new\Ejar_new\bin\roslyn\System.Collections.Immutable.dll
+D:\IT\IT level 4\Ejar\Ejar\Ejar_new\Ejar_new\bin\roslyn\System.Reflection.Metadata.dll
+D:\IT\IT level 4\Ejar\Ejar\Ejar_new\Ejar_new\bin\roslyn\vbc.exe
+D:\IT\IT level 4\Ejar\Ejar\Ejar_new\Ejar_new\bin\roslyn\VBCSCompiler.exe
+D:\IT\IT level 4\Ejar\Ejar\Ejar_new\Ejar_new\bin\roslyn\VBCSCompiler.exe.config
+D:\IT\IT level 4\Ejar\Ejar\Ejar_new\Ejar_new\bin\Ejar_new.dll.config
+D:\IT\IT level 4\Ejar\Ejar\Ejar_new\Ejar_new\bin\Ejar_new.dll
+D:\IT\IT level 4\Ejar\Ejar\Ejar_new\Ejar_new\bin\Ejar_new.pdb
+D:\IT\IT level 4\Ejar\Ejar\Ejar_new\Ejar_new\bin\Antlr3.Runtime.dll
+D:\IT\IT level 4\Ejar\Ejar\Ejar_new\Ejar_new\bin\EntityFramework.dll
+D:\IT\IT level 4\Ejar\Ejar\Ejar_new\Ejar_new\bin\EntityFramework.SqlServer.dll
+D:\IT\IT level 4\Ejar\Ejar\Ejar_new\Ejar_new\bin\Microsoft.AspNet.Identity.Core.dll
+D:\IT\IT level 4\Ejar\Ejar\Ejar_new\Ejar_new\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\IT\IT level 4\Ejar\Ejar\Ejar_new\Ejar_new\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\IT\IT level 4\Ejar\Ejar\Ejar_new\Ejar_new\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\IT\IT level 4\Ejar\Ejar\Ejar_new\Ejar_new\bin\Microsoft.Owin.dll
+D:\IT\IT level 4\Ejar\Ejar\Ejar_new\Ejar_new\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\IT\IT level 4\Ejar\Ejar\Ejar_new\Ejar_new\bin\Microsoft.Owin.Security.Cookies.dll
+D:\IT\IT level 4\Ejar\Ejar\Ejar_new\Ejar_new\bin\Microsoft.Owin.Security.dll
+D:\IT\IT level 4\Ejar\Ejar\Ejar_new\Ejar_new\bin\Microsoft.Owin.Security.Facebook.dll
+D:\IT\IT level 4\Ejar\Ejar\Ejar_new\Ejar_new\bin\Microsoft.Owin.Security.Google.dll
+D:\IT\IT level 4\Ejar\Ejar\Ejar_new\Ejar_new\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\IT\IT level 4\Ejar\Ejar\Ejar_new\Ejar_new\bin\Microsoft.Owin.Security.OAuth.dll
+D:\IT\IT level 4\Ejar\Ejar\Ejar_new\Ejar_new\bin\Microsoft.Owin.Security.Twitter.dll
+D:\IT\IT level 4\Ejar\Ejar\Ejar_new\Ejar_new\bin\Microsoft.Web.Infrastructure.dll
+D:\IT\IT level 4\Ejar\Ejar\Ejar_new\Ejar_new\bin\Newtonsoft.Json.dll
+D:\IT\IT level 4\Ejar\Ejar\Ejar_new\Ejar_new\bin\Owin.dll
+D:\IT\IT level 4\Ejar\Ejar\Ejar_new\Ejar_new\bin\System.Web.Helpers.dll
+D:\IT\IT level 4\Ejar\Ejar\Ejar_new\Ejar_new\bin\System.Web.Mvc.dll
+D:\IT\IT level 4\Ejar\Ejar\Ejar_new\Ejar_new\bin\System.Web.Optimization.dll
+D:\IT\IT level 4\Ejar\Ejar\Ejar_new\Ejar_new\bin\System.Web.Razor.dll
+D:\IT\IT level 4\Ejar\Ejar\Ejar_new\Ejar_new\bin\System.Web.WebPages.Deployment.dll
+D:\IT\IT level 4\Ejar\Ejar\Ejar_new\Ejar_new\bin\System.Web.WebPages.dll
+D:\IT\IT level 4\Ejar\Ejar\Ejar_new\Ejar_new\bin\System.Web.WebPages.Razor.dll
+D:\IT\IT level 4\Ejar\Ejar\Ejar_new\Ejar_new\bin\WebGrease.dll
+D:\IT\IT level 4\Ejar\Ejar\Ejar_new\Ejar_new\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\IT\IT level 4\Ejar\Ejar\Ejar_new\Ejar_new\bin\System.Web.Helpers.xml
+D:\IT\IT level 4\Ejar\Ejar\Ejar_new\Ejar_new\bin\System.Web.Mvc.xml
+D:\IT\IT level 4\Ejar\Ejar\Ejar_new\Ejar_new\bin\System.Web.Optimization.xml
+D:\IT\IT level 4\Ejar\Ejar\Ejar_new\Ejar_new\bin\System.Web.Razor.xml
+D:\IT\IT level 4\Ejar\Ejar\Ejar_new\Ejar_new\bin\System.Web.WebPages.xml
+D:\IT\IT level 4\Ejar\Ejar\Ejar_new\Ejar_new\bin\System.Web.WebPages.Deployment.xml
+D:\IT\IT level 4\Ejar\Ejar\Ejar_new\Ejar_new\bin\System.Web.WebPages.Razor.xml
+D:\IT\IT level 4\Ejar\Ejar\Ejar_new\Ejar_new\bin\Antlr3.Runtime.pdb
+D:\IT\IT level 4\Ejar\Ejar\Ejar_new\Ejar_new\bin\Newtonsoft.Json.xml
+D:\IT\IT level 4\Ejar\Ejar\Ejar_new\Ejar_new\bin\EntityFramework.xml
+D:\IT\IT level 4\Ejar\Ejar\Ejar_new\Ejar_new\bin\EntityFramework.SqlServer.xml
+D:\IT\IT level 4\Ejar\Ejar\Ejar_new\Ejar_new\bin\Microsoft.AspNet.Identity.Core.xml
+D:\IT\IT level 4\Ejar\Ejar\Ejar_new\Ejar_new\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\IT\IT level 4\Ejar\Ejar\Ejar_new\Ejar_new\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\IT\IT level 4\Ejar\Ejar\Ejar_new\Ejar_new\bin\Microsoft.Owin.xml
+D:\IT\IT level 4\Ejar\Ejar\Ejar_new\Ejar_new\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\IT\IT level 4\Ejar\Ejar\Ejar_new\Ejar_new\bin\Microsoft.Owin.Security.xml
+D:\IT\IT level 4\Ejar\Ejar\Ejar_new\Ejar_new\bin\Microsoft.Owin.Security.Facebook.xml
+D:\IT\IT level 4\Ejar\Ejar\Ejar_new\Ejar_new\bin\Microsoft.Owin.Security.Cookies.xml
+D:\IT\IT level 4\Ejar\Ejar\Ejar_new\Ejar_new\bin\Microsoft.Owin.Security.OAuth.xml
+D:\IT\IT level 4\Ejar\Ejar\Ejar_new\Ejar_new\bin\Microsoft.Owin.Security.Google.xml
+D:\IT\IT level 4\Ejar\Ejar\Ejar_new\Ejar_new\bin\Microsoft.Owin.Security.Twitter.xml
+D:\IT\IT level 4\Ejar\Ejar\Ejar_new\Ejar_new\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\IT\IT level 4\Ejar\Ejar\Ejar_new\Ejar_new\obj\Debug\Ejar_new.csprojResolveAssemblyReference.cache
+D:\IT\IT level 4\Ejar\Ejar\Ejar_new\Ejar_new\obj\Debug\Ejar_new.dll
+D:\IT\IT level 4\Ejar\Ejar\Ejar_new\Ejar_new\obj\Debug\Ejar_new.pdb
